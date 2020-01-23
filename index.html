@@ -17,11 +17,6 @@
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
@@ -30,11 +25,15 @@
       src="https://kit.fontawesome.com/d7576195fc.js"
       crossorigin="anonymous"
     ></script>
+    <!-- <script src="bower_components/aos/dist/aos.js"></script>
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" /> -->
+
     <title>Kaitlyn Carlson Portfolio</title>
   </head>
   <body>
     <nav id="nav-bar-mine" class="navbar navbar-expand-lg">
       <img
+        id="alien"
         class="navbar-brand"
         width="60px"
         height="60px"
@@ -46,17 +45,17 @@
             <a id="home-anchor" class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a id="projects-anchor" class="nav-link" href="#projects"
-              >Projects</a
-            >
-          </li>
-          <li class="nav-item">
             <a id="about-anchor" class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a id="contact-anchor" class="nav-link" href="#skills"
               >Technical Skills & Languages</a
             >
+          <li class="nav-item">
+            <a id="projects-anchor" class="nav-link" href="#projects"
+              >Projects</a
+            >
+          </li>
           </li>
           <li class="nav-item">
             <a id="contact-anchor" class="nav-link" href="#contact">Contact</a>
@@ -70,60 +69,6 @@
         <h4 id="role" class="lead info">Full Stack Web Development Student</h4>
       </div>
     </div>
-    <div id="projects">
-      <div class="projects-title">
-        <h1 class="display-4 col-12">Projects</h1>
-      </div>
-
-      <div id="project-display" class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12 columns">
-          <img
-            src="./ProjectIMGs/navbar-plane-left.png"
-            height="200px"
-            width="200px"
-            class="project-icon"
-          />
-          <hr class="project-break" />
-          <p class="lead">Choose Your Own Adventure Application</p>
-          <i class="fab fa-github fa-3x"></i> Hosted on GitHub
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 columns">
-          <img
-            src="https://cdn.pixabay.com/photo/2016/03/31/21/56/blue-1296737_960_720.png"
-            height="200px"
-            width="200px"
-            class="project-icon"
-          />
-          <hr class="project-break" />
-          <p class="lead">Weather Dashboard Application</p>
-          <i class="fab fa-github fa-3x"></i> Hosted on GitHub
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 columns">
-          <img
-            src="https://cdn.pixabay.com/photo/2016/07/28/20/42/icon-1549619_960_720.png"
-            height="200px"
-            width="200px"
-            class="project-icon"
-          />
-          <hr class="project-break" />
-          <p class="lead">Work Day Itinerary Application</p>
-
-          <i class="fab fa-github fa-3x"></i> Hosted on GitHub
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 columns">
-          <img
-            src="https://p0.piqsels.com/preview/275/13/117/lock-key-engraving-security.jpg"
-            height="200px"
-            width="200px"
-            class="project-icon"
-          />
-          <hr class="project-break" />
-          <p class="lead">Random Password Generator Application</p>
-          <i class="fab fa-github fa-3x"></i> Hosted on GitHub
-        </div>
-      </div>
-    </div>
-    <div id="spacer-div"></div>
     <div id="about">
       <div id="tidbits">
         <h1 class="display-4 header col-12">The tidbits...</h1>
@@ -198,23 +143,76 @@
           </div>
           <div class="row language-icon">
             <div class="col-auto columns">
-              <i class="fab fa-html5 fa-3x icon"></i>
+              <i class="fab fa-html5 fa-5x icon"></i>
             </div>
             <div class="col-auto columns">
-              <i class="fab fa-css3-alt fa-3x icon"></i>
+              <i class="fab fa-css3-alt fa-5x icon"></i>
             </div>
             <div class="col-auto columns">
-              <i class="fab fa-js-square fa-3x icon"></i>
+              <i class="fab fa-js-square fa-5x icon"></i>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div id="spacer-div"></div>
+    <div id="projects">
+      <div class="projects-title">
+        <h1 class="display-4 col-12">Projects</h1>
+      </div>
 
+      <div id="project-display" class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 columns">
+          <img
+            src="./ProjectIMGs/navbar-plane-left.png"
+            height="200px"
+            width="200px"
+            class="project-icon"
+          />
+          <hr class="project-break" />
+          <p class="lead">Choose Your Own Adventure Application</p>
+          <i class="fab fa-github fa-3x"></i> GitHub
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 columns">
+          <img
+            src="https://cdn.pixabay.com/photo/2016/03/31/21/56/blue-1296737_960_720.png"
+            height="200px"
+            width="200px"
+            class="project-icon"
+          />
+          <hr class="project-break" />
+          <p class="lead">Weather Dashboard Application</p>
+          <i class="fab fa-github fa-3x"></i> GitHub
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 columns">
+          <img
+            src="https://cdn.pixabay.com/photo/2016/07/28/20/42/icon-1549619_960_720.png"
+            height="200px"
+            width="200px"
+            class="project-icon"
+          />
+          <hr class="project-break" />
+          <p class="lead">Work Day Itinerary Application</p>
+
+          <i class="fab fa-github fa-3x"></i> GitHub
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 columns">
+          <img
+            src="https://p0.piqsels.com/preview/275/13/117/lock-key-engraving-security.jpg"
+            height="200px"
+            width="200px"
+            class="project-icon"
+          />
+          <hr class="project-break" />
+          <p class="lead">Random Password Generator Application</p>
+          <i class="fab fa-github fa-3x"></i> GitHub
+        </div>
+      </div>
+    </div>
+    <div id="spacer-div"></div>
     <div id="contact">
       <div class="row">
-        <div class="col-12" id="contact-display">
+        <div class="col-12" id="target">
           <div class="row">
             <div class="col-12">
               <img
@@ -233,10 +231,17 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-12">
-                <i class="far fa-envelope fa-4x"></i>
-                <i class="fab fa-github fa-4x"></i>
-                <i class="fab fa-linkedin-in fa-4x"></i>
+              <div class="col-12" id="contact-display">
+                <div class="emaildropdown">
+                  <span><i class="far fa-envelope fa-3x" id="email"></i></span>
+                </div>
+                <div class="phonedropdown">
+                  <span><i class="fas fa-phone-square fa-3x" id="phone"></i></span>
+                </div>
+                <i class="fab fa-github fa-3x" id="githubrepo"></i>
+                <i class="fab fa-linkedin-in fa-3x" id="linkedin"></i>
+                <div class="lead emaildropdowncontent">kaitlynAnneCarlson@gmail.com</div>
+                <div class="lead phonedropdowncontent">(215) 983- 0743</div>
               </div>
             </div>
           </div>

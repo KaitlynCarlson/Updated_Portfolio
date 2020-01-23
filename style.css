@@ -1,7 +1,20 @@
 html,
 body {
   height: 100%;
+  width: 100%;
   margin: 0;
+}
+.emaildropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.emaildropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: black;
+  padding: 10px;
+  margin-top: 10px;
 }
 #home {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Neon_art.jpg");
@@ -34,7 +47,6 @@ ol {
   display: grid;
 }
 #technicalskillsandlanguages {
-  padding-bottom: 50px;
   display: grid;
 }
 
@@ -47,15 +59,13 @@ ol {
 #about {
   background-color: black;
   color: white;
-  padding: 20px;
+  padding: 50px;
   display: grid;
-  padding-bottom: 50px;
 }
 #contact {
   background-color: black;
   color: white;
-  padding: 20px;
-  padding-bottom: 30%;
+  padding: 100px;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -63,8 +73,7 @@ ol {
 #skills {
   background-color: black;
   color: white;
-  padding: 20px;
-  padding-bottom: 30%;
+  padding: 100px;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -82,7 +91,7 @@ ol {
 #projects {
   background-color: black;
   color: white;
-  padding: 20px;
+  padding: 100px;
   display: grid;
 }
 #project-display {
@@ -99,12 +108,14 @@ ol {
 #landing {
   color: white;
 }
+.nav-link:hover {
+  text-decoration: underline;
+}
 #nav-bar-mine {
   background-color: black;
   opacity: 100%;
   position: fixed;
   width: 100%;
-  margin-bottom: 10%;
   z-index: 1;
 }
 #contact-anchor,
@@ -120,20 +131,34 @@ ol {
 .language-icon {
   padding-left: 35px;
 }
-
 .icon {
   justify-content: center;
 }
 #spacer-div {
-  background-color: black;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Neon_art.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 40%;
   height: 100%;
+  width: 100%;
 }
 #personal-photo {
   border-radius: 20%;
 }
-#contact-display {
+#target {
   display: flex;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
+}
+.phonedropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.phonedropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: black;
+  padding: 10px;
+  margin-top: 10px;
+  width: fit-content;
 }
