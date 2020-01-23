@@ -1,0 +1,139 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+#home {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Neon_art.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  right: 0;
+  left: 0;
+}
+.skillsandlanguages {
+  padding: 10px;
+}
+.skills-item {
+  text-align: left;
+}
+#role {
+  position: absolute;
+  bottom: 5%;
+  right: 2%;
+  font-size: 30px;
+}
+ol {
+  list-style-type: circle;
+}
+.skills-item {
+  font-size: 25px;
+  justify-content: center;
+}
+#skills {
+  display: grid;
+}
+#technicalskillsandlanguages {
+  padding-bottom: 50px;
+  display: grid;
+}
+
+.header {
+  margin-bottom: 7%;
+}
+#traits {
+  margin-bottom: 7%;
+}
+#about {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: grid;
+  padding-bottom: 50px;
+}
+#contact {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  padding-bottom: 30%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+#skills {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  padding-bottom: 30%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  display: grid;
+}
+
+#name {
+  position: absolute;
+  bottom: 10%;
+  right: 2%;
+  font-size: 100px;
+}
+#projects {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: grid;
+}
+#project-display {
+  margin: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.project-break {
+  border: 0.5px solid white;
+}
+.columns {
+  padding: 40px;
+}
+#landing {
+  color: white;
+}
+#nav-bar-mine {
+  background-color: black;
+  opacity: 100%;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 10%;
+  z-index: 1;
+}
+#contact-anchor,
+#projects-anchor,
+#about-anchor,
+#home-anchor {
+  text-decoration: none;
+  color: white;
+}
+#languages-header {
+  padding-bottom: 20px;
+}
+.language-icon {
+  padding-left: 35px;
+}
+
+.icon {
+  justify-content: center;
+}
+#spacer-div {
+  background-color: black;
+  height: 100%;
+}
+#personal-photo {
+  border-radius: 20%;
+}
+#contact-display {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
