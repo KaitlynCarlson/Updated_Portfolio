@@ -25,6 +25,18 @@ $("#phone").on("click", function() {
   $(".phonedropdowncontent").css("display", "block");
   $(".emaildropdowncontent").css("display", "none");
 });
+$("#adventure").on("click", function() {
+  window.location = "https://kaitlyncarlson.github.io/Project-One/";
+});
+$("#weather").on("click", function() {
+  window.location = "https://kaitlyncarlson.github.io/Weather-Dashboard/";
+});
+$("#dayplanner").on("click", function() {
+  window.location = "https://kaitlyncarlson.github.io/Work-Day-Planner/";
+});
+$("#randompassword").on("click", function() {
+  window.location = "https://kaitlyncarlson.github.io/PasswordGenerator/";
+});
 AOS.init({
   duration: 2400
 });
