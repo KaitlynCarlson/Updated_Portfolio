@@ -30,6 +30,8 @@ The code architecture of my portfolio focuses largely on utilizing HTML and CSS.
 - BootStrap
 - Font Awesome
 
+## Resume
+
 ## Learn More
 
 [Visit me on LinkedIn](https://www.linkedin.com/in/kaitlynannecarlson/)
