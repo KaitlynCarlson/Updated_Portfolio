@@ -25,15 +25,18 @@
       src="https://kit.fontawesome.com/d7576195fc.js"
       crossorigin="anonymous"
     ></script>
-    <!-- <script src="bower_components/aos/dist/aos.js"></script>
-    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Kaitlyn Carlson Portfolio</title>
   </head>
   <body>
     <nav id="nav-bar-mine" class="navbar navbar-expand-lg">
       <img
         id="alien"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
         class="navbar-brand"
         width="60px"
         height="60px"
@@ -63,13 +66,14 @@
         </ul>
       </div>
     </nav>
-    <div id="home">
+
+    <div class="row" id="home">
       <div class="container" id="landing">
         <h1 id="name" class="display-4 info">Kaitlyn Carlson</h1>
         <h4 id="role" class="lead info">Full Stack Web Development Student</h4>
       </div>
     </div>
-    <div id="about">
+    <div id="about" class="row" data-aos="fade-up">
       <div id="tidbits">
         <h1 class="display-4 header col-12">The tidbits...</h1>
         <div id="traits" class="row">
@@ -94,8 +98,9 @@
         </div>
       </div>
     </div>
+  </div>
     <div id="spacer-div"></div>
-    <div id="skills" class="row">
+    <div id="skills" class="row" data-aos="fade-up">
       <div class="row">
         <div class="col-12">
           <h1 class="display-4 col-12" id="technicalskillsandlanguages">
@@ -155,7 +160,7 @@
       </div>
     </div>
     <div id="spacer-div"></div>
-    <div id="projects">
+    <div id="projects" class="row" data-aos="fade-up">
       <div class="projects-title">
         <h1 class="display-4 col-12">Projects</h1>
       </div>
@@ -209,8 +214,16 @@
       </div>
     </div>
     <div id="spacer-div"></div>
-    <div id="contact">
-      <div class="row">
+    <div id="contact" class="row" data-aos="fade-up">
+      <div class="row"> 
+        <div class="col">
+          <iframe src="https://drive.google.com/file/d/1CBXc-pyZgigDpRBKj49-oC7ZIH5VnS97/preview" width="500" height="480"></iframe>              
+          <a href="https://github.com/KaitlynCarlson/Updated_Portfolio/raw/master/KACResume.pdf" class="btn btn-default btn-xl" id="download-resume-anchor">
+          Download Resume
+          </a>
+        </div>
+     
+      <div class="row" id="contact-card">
         <div class="col-12" id="target">
           <div class="row">
             <div class="col-12">
@@ -229,6 +242,7 @@
                 <h1 class="display-4">Contact</h1>
               </div>
             </div>
+          
             <div class="row">
               <div class="col-12" id="contact-display">
                 <div class="emaildropdown">
@@ -246,6 +260,8 @@
           </div>
         </div>
       </div>
+    </div>
+    </div>
     </div>
 
     <script src="script.js"></script>

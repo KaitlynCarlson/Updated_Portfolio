@@ -3,6 +3,7 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
+  background-color: black;
 }
 .emaildropdown {
   position: relative;
@@ -161,4 +162,18 @@ ol {
   padding: 10px;
   margin-top: 10px;
   width: fit-content;
+}
+#download-resume-anchor {
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  margin: 5%;
+}
+#contact-card {
+  border: 1px solid white;
+  height: fit-content;
+  padding: 50px;
+}
+#alien {
+  display: block;
 }

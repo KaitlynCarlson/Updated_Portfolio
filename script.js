@@ -25,3 +25,6 @@ $("#phone").on("click", function() {
   $(".phonedropdowncontent").css("display", "block");
   $(".emaildropdowncontent").css("display", "none");
 });
+AOS.init({
+  duration: 2400
+});
