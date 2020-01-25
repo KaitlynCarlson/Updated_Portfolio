@@ -26,7 +26,7 @@ The code architecture of my portfolio focuses largely on utilizing HTML and CSS.
 - CSS
 - JavaScript
 - jQuery
-- AOS (Animate on Scroll)
+- AOS (Animate on Scroll) [Visit resource](https://michalsnik.github.io/aos/)
 - BootStrap
 - Font Awesome
 
