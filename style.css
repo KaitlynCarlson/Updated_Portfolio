@@ -178,7 +178,6 @@ ol {
 
 @media (min-width: 200px) {
   body {
-    height: 100%;
     min-width: 100%;
   }
   #name,
@@ -194,12 +193,10 @@ ol {
   #contact,
   .spacer-div {
     min-width: 600px;
-    min-height: 100%;
   }
 }
 @media (min-width: 900px) {
   body {
     max-width: 2400px;
-    height: 100%;
   }
 }
