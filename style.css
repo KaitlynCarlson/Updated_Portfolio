@@ -1,10 +1,11 @@
 html,
 body {
   height: 100%;
-  width: 100%;
-  margin: 0;
+  min-width: 100%;
+
   background-color: black;
 }
+
 .emaildropdown {
   position: relative;
   display: inline-block;
@@ -24,6 +25,7 @@ body {
   height: 100%;
   right: 0;
   left: 0;
+  min-width: 100%;
 }
 .skillsandlanguages {
   padding: 10px;
@@ -33,9 +35,11 @@ body {
 }
 #role {
   position: absolute;
-  bottom: 5%;
+  bottom: 1%;
   right: 2%;
   font-size: 30px;
+  margin-top: 2%;
+  text-align: right;
 }
 ol {
   list-style-type: circle;
@@ -88,6 +92,7 @@ ol {
   bottom: 10%;
   right: 2%;
   font-size: 100px;
+  text-align: right;
 }
 #projects {
   background-color: black;
@@ -135,7 +140,7 @@ ol {
 .icon {
   justify-content: center;
 }
-#spacer-div {
+.spacer-div {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Neon_art.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -170,11 +175,28 @@ ol {
   margin: 5%;
 }
 #contact-card {
-  border: 1px solid white;
-  height: fit-content;
   padding: 50px;
-  min-width: 600px;
 }
 #alien {
   display: block;
+}
+@media (min-width: 200px) {
+  body {
+    max-width: 850px;
+    height: 100%;
+  }
+  #name,
+  #role {
+    text-align: left;
+    left: 5%;
+  }
+  #name {
+    bottom: 15%;
+  }
+}
+@media (min-width: 900px) {
+  body {
+    max-width: 2400px;
+    height: 100%;
+  }
 }
