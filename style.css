@@ -191,7 +191,7 @@ ol {
   #home,
   #contact,
   .spacer-div {
-    min-width: 550px;
+    min-width: 525px;
   }
   #contact {
     display: flex;
