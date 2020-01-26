@@ -192,7 +192,7 @@ ol {
   #home,
   #contact,
   .spacer-div {
-    min-width: 600px;
+    min-width: 500px;
   }
 }
 @media (min-width: 900px) {
