@@ -22,8 +22,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
-  right: 0;
-  left: 0;
+  /* right: 0;
+  left: 0; */
   min-width: 100%;
 }
 .skillsandlanguages {
@@ -196,6 +196,7 @@ ol {
   #contact,
   .spacer-div {
     min-width: 700px;
+    min-height: 100%;
   }
 }
 @media (min-width: 900px) {
