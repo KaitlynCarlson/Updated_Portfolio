@@ -189,12 +189,9 @@ ol {
   }
   #about,
   #home,
-  #contact {
-    min-width: 575px;
-  }
+  #contact,
   .spacer-div {
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 550px;
   }
 }
 @media (min-width: 900px) {
