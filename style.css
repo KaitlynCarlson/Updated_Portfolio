@@ -1,8 +1,7 @@
 html,
 body {
   height: 100%;
-  min-width: 100%;
-
+  width: 100%;
   background-color: black;
 }
 
@@ -152,9 +151,7 @@ ol {
 #personal-photo {
   border-radius: 20%;
 }
-#target {
-  display: flex;
-}
+
 .phonedropdown {
   position: relative;
   display: inline-block;
@@ -174,16 +171,17 @@ ol {
   padding: 5px;
   margin: 5%;
 }
-#contact-card {
-  padding: 50px;
-}
+
 #alien {
   display: block;
 }
+.row {
+  min-width: 200px;
+}
 @media (min-width: 200px) {
   body {
-    max-width: 850px;
     height: 100%;
+    min-width: 100%;
   }
   #name,
   #role {
@@ -192,6 +190,12 @@ ol {
   }
   #name {
     bottom: 15%;
+  }
+  #about,
+  #home,
+  #contact,
+  .spacer-div {
+    min-width: 700px;
   }
 }
 @media (min-width: 900px) {
