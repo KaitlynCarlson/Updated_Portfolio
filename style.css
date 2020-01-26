@@ -193,6 +193,10 @@ ol {
   .spacer-div {
     min-width: 550px;
   }
+  #contact {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media (min-width: 900px) {
   body {
