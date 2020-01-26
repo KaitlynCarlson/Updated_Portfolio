@@ -175,9 +175,7 @@ ol {
 #alien {
   display: block;
 }
-.row {
-  min-width: 200px;
-}
+
 @media (min-width: 200px) {
   body {
     height: 100%;
@@ -195,7 +193,7 @@ ol {
   #home,
   #contact,
   .spacer-div {
-    min-width: 700px;
+    min-width: 600px;
     min-height: 100%;
   }
 }
