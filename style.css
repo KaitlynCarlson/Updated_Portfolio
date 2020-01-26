@@ -192,6 +192,9 @@ ol {
   .spacer-div {
     min-width: 500px;
   }
+  .spacer-div {
+    min-height: 100%;
+  }
   #contact {
     min-width: 575px;
   }
