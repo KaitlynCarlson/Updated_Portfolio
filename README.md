@@ -1,7 +1,7 @@
 # Kaitlyn Carlson Portfolio of Work
 
 ![Portfolio Landing Page](ProjectIMGs/Portfolio-Landing.png "Project Landing Page")
-
+[View Portfolio](https://kaitlyncarlson.github.io/Updated_Portfolio/ "Portfolio")
 ## Table of Contents
 
 [Purpose](#Purpose)
