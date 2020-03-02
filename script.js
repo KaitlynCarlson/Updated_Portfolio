@@ -37,6 +37,12 @@ $("#dayplanner").on("click", function() {
 $("#randompassword").on("click", function() {
   window.location = "https://kaitlyncarlson.github.io/PasswordGenerator/";
 });
+$("#burgerImg").on("click", function() {
+  window.location = "https://rocky-dusk-41654.herokuapp.com/";
+});
+$("#buger").on("click", function() {
+  window.location = "https://github.com/KaitlynCarlson/burger";
+});
 AOS.init({
   duration: 2400
 });
