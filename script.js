@@ -8,9 +8,6 @@ $("#email").on("click", function() {
   $(".emaildropdowncontent").css("display", "block");
   $(".phonedropdowncontent").css("display", "none");
 });
-$("#chooseyourownadventurerepo").on("click", function() {
-  window.open("https://github.com/KaitlynCarlson/Travel-Application");
-});
 $("#weatherrepo").on("click", function() {
   window.open("https://github.com/KaitlynCarlson/Weather-Dashboard");
 });
@@ -25,9 +22,7 @@ $("#phone").on("click", function() {
   $(".phonedropdowncontent").css("display", "block");
   $(".emaildropdowncontent").css("display", "none");
 });
-$("#adventure").on("click", function() {
-  window.open("https://kaitlyncarlson.github.io/Travel-Application/");
-});
+
 $("#weather").on("click", function() {
   window.open("https://kaitlyncarlson.github.io/Weather-Dashboard/");
 });

@@ -65,6 +65,9 @@ ol {
   padding: 50px;
   display: grid;
 }
+.appTitle {
+  font-weight: 500;
+}
 #contact {
   background-color: black;
   color: white;
@@ -73,6 +76,7 @@ ol {
   justify-content: center;
   align-items: center;
 }
+
 #skills {
   background-color: black;
   color: white;
@@ -183,7 +187,7 @@ ol {
   opacity: 40%;
 }
 .link:hover {
-  color: #042f66;
+  opacity: 55%;
 }
 #randompassword {
   border-radius: 20%;
@@ -194,6 +198,7 @@ div {
 #noteTaker {
   margin: 1px;
 }
+
 @media (min-width: 200px) {
   body {
     min-width: 100%;
