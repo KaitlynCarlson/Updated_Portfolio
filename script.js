@@ -43,6 +43,13 @@ $("#burgerImg").on("click", function() {
 $("#buger").on("click", function() {
   window.location = "https://github.com/KaitlynCarlson/burger";
 });
+$("#mothraImg").on("click", function() {
+  window.location = "https://the-best-project-manager.herokuapp.com/";
+});
+$("#mothra").on("click", function() {
+  window.location =
+    "https://github.com/maximilianc88/Project-Planner-Application";
+});
 AOS.init({
-  duration: 2400
+  duration: 1000
 });
