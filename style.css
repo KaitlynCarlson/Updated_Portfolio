@@ -182,7 +182,7 @@ ol {
 .project-icon:hover {
   opacity: 40%;
 }
-i:hover {
+.link:hover {
   color: #1f5da8;
 }
 div {
