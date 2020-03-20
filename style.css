@@ -176,17 +176,23 @@ ol {
 }
 #mothraImg {
   background-color: #8d85a6;
-  padding: 5px;
-  border-radius: 5%;
+  padding: 10px;
+  border-radius: 20%;
 }
 .project-icon:hover {
   opacity: 40%;
 }
 .link:hover {
-  color: #1f5da8;
+  color: #042f66;
+}
+#randompassword {
+  border-radius: 20%;
 }
 div {
   padding: 10px;
+}
+#noteTaker {
+  margin: 1px;
 }
 @media (min-width: 200px) {
   body {
