@@ -98,7 +98,7 @@ ol {
   padding: 100px;
   display: grid;
 }
-#project-display {
+.project-display {
   margin: 5%;
   justify-content: center;
   align-items: center;
