@@ -46,6 +46,11 @@ ol {
   font-size: 25px;
   justify-content: center;
 }
+.list-title {
+  font-size: 25px;
+  justify-content: center;
+  text-align: left;
+}
 #skills {
   display: grid;
 }
@@ -84,6 +89,7 @@ ol {
   display: grid;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 .icon {
   display: grid;
