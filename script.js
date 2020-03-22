@@ -35,7 +35,7 @@ $("#randompassword").on("click", function() {
 $("#burgerImg").on("click", function() {
   window.open("https://rocky-dusk-41654.herokuapp.com/");
 });
-$("#buger").on("click", function() {
+$("#burger").on("click", function() {
   window.open("https://github.com/KaitlynCarlson/burger");
 });
 $("#mothraImg").on("click", function() {
